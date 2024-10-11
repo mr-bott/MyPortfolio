@@ -1,11 +1,15 @@
 import React from "react"
 
 const ScrollDown=()=>{
+  const pullAbout=()=>{
+    const contactSection = document.getElementById("about");
+    contactSection?.scrollIntoView({ behavior: "smooth" });
+  }
     return(
         <div className="home__scroll">
 
        
-<a href="#about" className="home_scroll-button button--flex">
+<a className="home_scroll-button button--flex" onClick={pullAbout}>
 <svg
                 width="32px"
                 height="32px"

@@ -9,7 +9,10 @@ const Data = () => {
     deleteSpeed: 80,
 
   })
-
+const pullContact=()=>{
+  const contactSection = document.getElementById("contact");
+  contactSection?.scrollIntoView({ behavior: "smooth" });
+}
   return (
     <div className="home_data">
       <h1 className="home_title"> Murali Krishna
@@ -81,7 +84,7 @@ const Data = () => {
       tackling challenges with innovative solutions , 
       find new ways to solve problems through code and design.
       </p>
-      <button href="#contact" className=" button button--flex">
+      <button onClick={pullContact} className=" button button--flex">
         Say Hello
         <svg
           class="button__icon"
