@@ -1,0 +1,43 @@
+.slider_container{
+ height:auto;
+    width: 100%;
+}
+.project_image{
+    margin:.5rem;
+    width:95%;
+    height: auto;
+ }
+.project_title{
+    text-align: center;
+    color:var(--title-color);
+    font-size: var(--small-font-size);
+  
+}
+
+
+.project_title_main{
+    text-align: left;
+    color:var(--title-color-dark) !important;
+    font-size:1rem;
+    margin-top:2rem;
+}
+ .carousel-item {
+    text-align: center; 
+}
+
+.slick-prev,
+.slick-next {
+    border: none; 
+    border-radius: 50%;
+    cursor: pointer;   
+    z-index: 1; 
+}
+
+.slick-prev {
+    left: 25px; 
+}
+
+.slick-next {
+    right: 25px; 
+}
+
